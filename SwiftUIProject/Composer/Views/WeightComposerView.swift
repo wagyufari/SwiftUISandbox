@@ -114,8 +114,9 @@ struct WeightComposerView<Content: View>: View {
                         .font(.system(size: 16, weight: .medium))
                         .padding(.top, 16)
                         .padding(.trailing, 24)
-                        .padding(.bottom, 24)
+                        .padding(.bottom, 32)
                         .onTapGesture {
+                            self.isFirstRun = true
                             self.viewModel.weight = weight
                             self.viewModel.isWeightComposerShown = false
                         }

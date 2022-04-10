@@ -23,6 +23,11 @@
 		3FCE3D032801E7D70071C0DA /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 3FCE3D022801E7D70071C0DA /* OmenTextField */; };
 		3FCE3D092801F2D90071C0DA /* MultiTextFieldRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */; };
 		3FCE3D0B2801F2E10071C0DA /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */; };
+		3FFDC5172802B3E9006F9290 /* SelectLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDC5162802B3E9006F9290 /* SelectLabelView.swift */; };
+		3FFDC5192802C5F7006F9290 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDC5182802C5F7006F9290 /* View+Extension.swift */; };
+		3FFDC51B2802DD7B006F9290 /* FlexBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDC51A2802DD7B006F9290 /* FlexBox.swift */; };
+		3FFDC51D2802DD9A006F9290 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDC51C2802DD9A006F9290 /* SearchView.swift */; };
+		3FFDC51F2802E365006F9290 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDC51E2802E365006F9290 /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		3FCE3CFF2801E6760071C0DA /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
 		3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextFieldRep.swift; sourceTree = "<group>"; };
 		3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextField.swift; sourceTree = "<group>"; };
+		3FFDC5162802B3E9006F9290 /* SelectLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLabelView.swift; sourceTree = "<group>"; };
+		3FFDC5182802C5F7006F9290 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		3FFDC51A2802DD7B006F9290 /* FlexBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexBox.swift; sourceTree = "<group>"; };
+		3FFDC51C2802DD9A006F9290 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3FFDC51E2802E365006F9290 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 				3F2C9A2627FBBA4300CBD282 /* Color+Extension.swift */,
 				3F2C9A1C27FBB6EB00CBD282 /* Assets.xcassets */,
 				3F2C9A1E27FBB6EB00CBD282 /* Preview Content */,
+				3FFDC51E2802E365006F9290 /* Label.swift */,
 			);
 			path = SwiftUIProject;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			children = (
 				3F2C9A1A27FBB6E900CBD282 /* WeightComposerView.swift */,
 				3FCE3CF82801D4220071C0DA /* BaseComposerView.swift */,
+				3FFDC5162802B3E9006F9290 /* SelectLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +142,9 @@
 				3FCE3CFF2801E6760071C0DA /* Binding+Extension.swift */,
 				3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */,
 				3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */,
+				3FFDC5182802C5F7006F9290 /* View+Extension.swift */,
+				3FFDC51C2802DD9A006F9290 /* SearchView.swift */,
+				3FFDC51A2802DD7B006F9290 /* FlexBox.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -210,16 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFDC51B2802DD7B006F9290 /* FlexBox.swift in Sources */,
 				3FCE3D0B2801F2E10071C0DA /* MultiTextField.swift in Sources */,
+				3FFDC5172802B3E9006F9290 /* SelectLabelView.swift in Sources */,
 				3F2C9A1B27FBB6E900CBD282 /* WeightComposerView.swift in Sources */,
 				3FCE3D092801F2D90071C0DA /* MultiTextFieldRep.swift in Sources */,
 				3FCE3CEB280159A90071C0DA /* BottomSheetView.swift in Sources */,
+				3FFDC51D2802DD9A006F9290 /* SearchView.swift in Sources */,
 				3F2C9A2727FBBA4300CBD282 /* Color+Extension.swift in Sources */,
 				3FCE3CFC2801D4920071C0DA /* CheckboxView.swift in Sources */,
+				3FFDC5192802C5F7006F9290 /* View+Extension.swift in Sources */,
 				3FCE3CF92801D4220071C0DA /* BaseComposerView.swift in Sources */,
 				3FCE3CF32801D0220071C0DA /* ObjectiveComposerView.swift in Sources */,
 				3FCE3D002801E6760071C0DA /* Binding+Extension.swift in Sources */,
 				3FCE3CF62801D0760071C0DA /* ObjectiveComposerViewModel.swift in Sources */,
+				3FFDC51F2802E365006F9290 /* Label.swift in Sources */,
 				3FCE3CE9280158B60071C0DA /* ContentView.swift in Sources */,
 				3FCE3CE5280158870071C0DA /* RoundedCorner.swift in Sources */,
 				3F2C9A1927FBB6E900CBD282 /* SwiftUIProjectApp.swift in Sources */,

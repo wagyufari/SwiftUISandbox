@@ -13,13 +13,15 @@ struct ObjectiveComposerView: View {
     @StateObject var viewModel = ObjectiveComposerViewModel()
     
     var body: some View{
-        return ZStack{
-            BaseComposerView(viewModel: viewModel) {
-                
+        return NavigationView{
+            ZStack{
+                BaseComposerView(viewModel: viewModel) {
+                    
+                }
+                WeightComposerView(viewModel: viewModel) {}.modifier(BottomSheetResizedModifier(isShown: $viewModel.isWeightComposerShown, frame: $viewModel.weightComposerFrame))
+                SelectLabelView(viewModel: viewModel) {}.modifier(BottomSheetModifier(isShown: $viewModel.isSelectLabelShown))
             }
-            WeightComposerView(viewModel: viewModel) {
-                
-            }.modifier(BottomSheetResizedModifier(isShown: $viewModel.isWeightComposerShown, frame: $viewModel.weightComposerFrame))
+            .navigationBarHidden(true)
         }
     }
 }
