@@ -12,7 +12,17 @@
 		3F2C9A1D27FBB6EB00CBD282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C9A1C27FBB6EB00CBD282 /* Assets.xcassets */; };
 		3F2C9A2027FBB6EB00CBD282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C9A1F27FBB6EB00CBD282 /* Preview Assets.xcassets */; };
 		3F2C9A2727FBBA4300CBD282 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C9A2627FBBA4300CBD282 /* Color+Extension.swift */; };
-		3FA02A072800930D0091D7E3 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA02A062800930C0091D7E3 /* TestingView.swift */; };
+		3FCE3CE5280158870071C0DA /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CE4280158870071C0DA /* RoundedCorner.swift */; };
+		3FCE3CE9280158B60071C0DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CE8280158B60071C0DA /* ContentView.swift */; };
+		3FCE3CEB280159A90071C0DA /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CEA280159A90071C0DA /* BottomSheetView.swift */; };
+		3FCE3CF32801D0220071C0DA /* ObjectiveComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CF22801D0220071C0DA /* ObjectiveComposerView.swift */; };
+		3FCE3CF62801D0760071C0DA /* ObjectiveComposerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CF52801D0760071C0DA /* ObjectiveComposerViewModel.swift */; };
+		3FCE3CF92801D4220071C0DA /* BaseComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CF82801D4220071C0DA /* BaseComposerView.swift */; };
+		3FCE3CFC2801D4920071C0DA /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CFB2801D4920071C0DA /* CheckboxView.swift */; };
+		3FCE3D002801E6760071C0DA /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3CFF2801E6760071C0DA /* Binding+Extension.swift */; };
+		3FCE3D032801E7D70071C0DA /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 3FCE3D022801E7D70071C0DA /* OmenTextField */; };
+		3FCE3D092801F2D90071C0DA /* MultiTextFieldRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */; };
+		3FCE3D0B2801F2E10071C0DA /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +32,16 @@
 		3F2C9A1C27FBB6EB00CBD282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2C9A1F27FBB6EB00CBD282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F2C9A2627FBBA4300CBD282 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		3FA02A062800930C0091D7E3 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		3FCE3CE4280158870071C0DA /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		3FCE3CE8280158B60071C0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FCE3CEA280159A90071C0DA /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		3FCE3CF22801D0220071C0DA /* ObjectiveComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveComposerView.swift; sourceTree = "<group>"; };
+		3FCE3CF52801D0760071C0DA /* ObjectiveComposerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveComposerViewModel.swift; sourceTree = "<group>"; };
+		3FCE3CF82801D4220071C0DA /* BaseComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseComposerView.swift; sourceTree = "<group>"; };
+		3FCE3CFB2801D4920071C0DA /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		3FCE3CFF2801E6760071C0DA /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextFieldRep.swift; sourceTree = "<group>"; };
+		3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCE3D032801E7D70071C0DA /* OmenTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +75,11 @@
 		3F2C9A1727FBB6E900CBD282 /* SwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				3FCE3CFA2801D48A0071C0DA /* Utils */,
+				3FCE3CF42801D0370071C0DA /* Composer */,
+				3FCE3CE1280158700071C0DA /* Bottom Sheet */,
 				3F2C9A1827FBB6E900CBD282 /* SwiftUIProjectApp.swift */,
-				3F2C9A1A27FBB6E900CBD282 /* WeightComposerView.swift */,
-				3FA02A062800930C0091D7E3 /* TestingView.swift */,
+				3FCE3CE8280158B60071C0DA /* ContentView.swift */,
 				3F2C9A2627FBBA4300CBD282 /* Color+Extension.swift */,
 				3F2C9A1C27FBB6EB00CBD282 /* Assets.xcassets */,
 				3F2C9A1E27FBB6EB00CBD282 /* Preview Content */,
@@ -71,6 +93,45 @@
 				3F2C9A1F27FBB6EB00CBD282 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FCE3CE1280158700071C0DA /* Bottom Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3CE4280158870071C0DA /* RoundedCorner.swift */,
+				3FCE3CEA280159A90071C0DA /* BottomSheetView.swift */,
+			);
+			path = "Bottom Sheet";
+			sourceTree = "<group>";
+		};
+		3FCE3CF42801D0370071C0DA /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3CF72801D4160071C0DA /* Views */,
+				3FCE3CF22801D0220071C0DA /* ObjectiveComposerView.swift */,
+				3FCE3CF52801D0760071C0DA /* ObjectiveComposerViewModel.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		3FCE3CF72801D4160071C0DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C9A1A27FBB6E900CBD282 /* WeightComposerView.swift */,
+				3FCE3CF82801D4220071C0DA /* BaseComposerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FCE3CFA2801D48A0071C0DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3CFB2801D4920071C0DA /* CheckboxView.swift */,
+				3FCE3CFF2801E6760071C0DA /* Binding+Extension.swift */,
+				3FCE3D082801F2D90071C0DA /* MultiTextFieldRep.swift */,
+				3FCE3D0A2801F2E10071C0DA /* MultiTextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +150,9 @@
 			dependencies = (
 			);
 			name = SwiftUIProject;
+			packageProductDependencies = (
+				3FCE3D022801E7D70071C0DA /* OmenTextField */,
+			);
 			productName = SwiftUIProject;
 			productReference = 3F2C9A1527FBB6E900CBD282 /* SwiftUIProject.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 3F2C9A0C27FBB6E900CBD282;
+			packageReferences = (
+				3FCE3D012801E7D70071C0DA /* XCRemoteSwiftPackageReference "OmenTextField" */,
+			);
 			productRefGroup = 3F2C9A1627FBB6E900CBD282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +210,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCE3D0B2801F2E10071C0DA /* MultiTextField.swift in Sources */,
 				3F2C9A1B27FBB6E900CBD282 /* WeightComposerView.swift in Sources */,
-				3FA02A072800930D0091D7E3 /* TestingView.swift in Sources */,
+				3FCE3D092801F2D90071C0DA /* MultiTextFieldRep.swift in Sources */,
+				3FCE3CEB280159A90071C0DA /* BottomSheetView.swift in Sources */,
 				3F2C9A2727FBBA4300CBD282 /* Color+Extension.swift in Sources */,
+				3FCE3CFC2801D4920071C0DA /* CheckboxView.swift in Sources */,
+				3FCE3CF92801D4220071C0DA /* BaseComposerView.swift in Sources */,
+				3FCE3CF32801D0220071C0DA /* ObjectiveComposerView.swift in Sources */,
+				3FCE3D002801E6760071C0DA /* Binding+Extension.swift in Sources */,
+				3FCE3CF62801D0760071C0DA /* ObjectiveComposerViewModel.swift in Sources */,
+				3FCE3CE9280158B60071C0DA /* ContentView.swift in Sources */,
+				3FCE3CE5280158870071C0DA /* RoundedCorner.swift in Sources */,
 				3F2C9A1927FBB6E900CBD282 /* SwiftUIProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +425,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FCE3D012801E7D70071C0DA /* XCRemoteSwiftPackageReference "OmenTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kitlangton/OmenTextField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FCE3D022801E7D70071C0DA /* OmenTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FCE3D012801E7D70071C0DA /* XCRemoteSwiftPackageReference "OmenTextField" */;
+			productName = OmenTextField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F2C9A0D27FBB6E900CBD282 /* Project object */;
 }
